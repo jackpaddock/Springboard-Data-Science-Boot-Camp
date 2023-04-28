@@ -1,0 +1,148 @@
+#Task 2a -  We want to get the current day, month and year, so we need to import the datetime module. This just involves writing 'import datetime' into our text editor. Do this on line 1 above your account variable.
+import datetime 
+
+#Task 1 - Using a list of lists, make a table called "account" with the columns Date, Credit, Debit, Balance
+account = ['Date', 'Credit', 'Debit', 'Balance']
+['04/01/2023', 450.0, 0, 450.0]
+['04/01/2023', 0, 30.0, 420.0]
+['04/01/2023', 1000.0, 0, 1420.0]
+['04/01/2023', 4400.0, 0, 5820.0]
+['04/01/2023', 0, 776.0, 5044.0]
+['04/01/2023', 2333.33, 0, 7377.33]
+['04/01/2023', 2000.0, 0, 9377.33]
+['04/01/2023', 0, 1444.33, 7933.0]
+
+for i in account:
+    print(i)
+
+#Task 2b - declare a function called transaction(). We want this function to eventually do the job of making a new row for each transaction, get the user input for whether they want to credit or debit the account, associate the current day, month and year to the transaction, and calculate the new balance.
+def transaction():
+
+    #Task 2c - We want to get our day, month and year in the format: DD/MM/YY and store the current value in each transaction row. Do this, we'll be using the datetime Python module. In the first line of the transaction() function on line 5, make a variable called now, and give it the value: datetime.datetime.now(). In the second line of that function on line 6, make a variable called dayMonthYear, and make its value: str(now.day)+'/'+str(now.month)+'/'+str(now.year).
+    now = datetime.datetime.now()
+    dayMonthYear = str(now.day)+'/'+str(now.month)+'/'+str(now.year)
+
+    #Task 3 - within your transaction() function, make a variable called validInput, and set its value to False. On the line after that (line 8), declare a while loop that runs just if validInput == False. We're going to assume that the input is False, until proven otherwise.
+    validInput = False
+    while validInput == False:
+
+        #Task 4a - Make a variable called creditQ on line 9, and store in it a user input with the exact prompt: 'Do you want to credit your account in this transaction? Y/N'. Make the user input all lower case with a built-in string function.
+        creditQ = input('Do you want to credit your account in this transaction? Y/N').lower()
+        
+        #Task 4b - We want to check if the value of creditQ is 'y'. i. Write an if statement that does this! If creditQ's value is indeed 'y': ii. make the value of validInput True! This is because the user has entered a valid input, and we want to break out of the while loop that continues as long as the user enters invalid inputs. iii. make a variable called credit that stores a user input with the exact prompt: 'How much do you want to credit your account? '. Convert this input to a float with the built-in float() function. Do this in one line.
+        if (creditQ == 'y'):
+            validInput = True
+            credit = float(input('How much do you want to credit your account? '))
+
+            #Task 5a - i. On line 13, make an if-statement that checks whether the length of account is greater than 1. Since the first element of account is just the list containing the column labels, this will check whether this is our first transaction. ii. On line 14 within the if-statement, make a variable called lastRow. Assign to it the element of account at index len(account) - 1. This gets us the previous transaction. iii. On line 15, make a variable called newRow, and assign it a list whose first element is our variable dayMonthYear, whose second element is our credit variable, whose third element is 0 (for this transaction is not debiting the account) and whose fourth element is the sum of credit and the element at index 3 of lastRow. That is, you want to make the fourth element the following sum: credit + lastRow[3]. iv. On line 16, append this row to our account. v. On line 17, print a statement saying we've added the credit to the account. Print out exactly the following on this line: 'Added ', credit, 'to your account.' vi. On line 18, print out the new balance of the account. Print out exactly the following on this line: 'Your new balance is: ', account[len(account)-1][3]
+            if len(account) > 1:
+                lastRow = account[len(account) - 1]
+                newRow = [dayMonthYear, credit, 0, credit + lastRow[3]]
+                account.append(newRow)
+                print('Added ', credit, 'to your account.')
+                print('Your new balance is: ', account[len(account)-1][3])
+
+                #Task 5b - i. On line 19, write an else:. Make this the same indentation level as the if statement you wrote on line 13. ii. On line 20, indent, and declare a variable called newRow. Assign it a list whose first element is our dayMonthYear variable, whose second element is credit, whose third element is 0 (for we are debiting nothing here) and whose fourth element is also just credit (for this is the first transaction, so the balance is just the value of credit)! iii. On line 21, append this new row to account. iv. On line 22, we want to print out what we've done. So print exactly the following: 'Added ', credit, 'to your account.' v. On line 23, we want to print the new balance. So we print out the balance of the last row in the list. Print exactly the following on this line: 'Your new balance is: ', account[len(account)-1][3]
+            else:
+                newRow = [dayMonthYear, credit, 0, credit]
+                account.append(newRow)
+                print('Added ', credit, 'to your account.')
+                print('Your new balance is: ', account[len(account)-1][3])
+            
+            #Task 6 - i. On line 24, declare an elif statement on the same indentation level as the if statement you declared on line 10. In this elif statement, check whether the value of creditQ is just 'n'. ii. On line 25, indent, and set the value of validInput to True. iii. On line 26, make an else claim on the same indentation level as the elif statement you declared on line 24. On line 27, indent, and print exactly the following string: 'Please enter a valid input.'.
+        elif (creditQ == 'n'):
+             validInput = True
+        else:
+            print('Please enter a valid input.')
+
+    #Task 7 - on line 29, make validInput equal to False; and ensure this assignment has the same indentation level as when you did this on line 7. make lines 30-34 inclusive reflect lines 8-12 inclusive, except this time, declare variables called debitQ and debit respectively. In lines 35-40 inclusive, make an if statement that's True just if this isn't the first transaction, just as we did on line 13. Make the balance of the new row equal to the balance of the previous one, minus the debit. In lines 41-45 inclusive, make a new row whose balance is simply the negative of the debit value, and do as we did on lines 16-18 inclusive. In lines 46-49 inclusive, account for those cases where the user enters 'n', as well as any invalid input, just as we did on lines 24-27 inclusive. Finally, on line 50, on the same indentation level as the first line inside your function on line 5, print the statement 'Thank you for your transaction. Have a nice day.'
+    validInput = False
+    while validInput == False:
+        debitQ = input('Do you want to debit your account in this transaction? Y/N').lower()
+        if (debitQ == 'y'):
+            validInput = True
+            debit = float(input('How much do you want to debit your account? '))
+            if len(account) > 1:
+                lastRow = account[len(account) - 1]
+                newRow = [dayMonthYear, 0, debit, lastRow[3] - debit]
+                account.append(newRow)
+                print('Subtracted ', debit, 'from your account.')
+                print('Your new balance is: ', account[len(account)-1][3])
+            else:
+                newRow = [dayMonthYear, 0, debit, -debit]
+                account.append(newRow)
+                print('Subtracted ', debit, 'from your account.')
+                print('Your new balance is: ', account[len(account)-1][3])
+        elif (debitQ == 'n'):
+            validInput = True
+        else:
+            print('Please enter a valid input.')
+    print('Thank you for your transaction. Have a nice day.')
+
+    #Task 8 - Copy + paste the scriot below and populate the "account" function. Then run the following code: "for i in account:   print(i)"
+userQuestion = input('Do you still want to run the program? Y/N').lower()
+while (userQuestion == 'y'):
+    transaction()
+    print('Your new account looks like this: ')
+    for i in account: 
+        print (i)
+    userQuestion = input('Do you still want to run the program?').lower()
+
+
+
+#Task 10 - Write out your favorite implementation of Bubble or Insertion sort, and print out the result of calling it on the following unsorted lists:
+def bubblesort(lists):
+    for i in range (0, len(lists) - 1):
+        for j in range(0, len(lists) - 1 - i):
+            if lists[j] > lists[j + 1]:
+                lists[j], lists[j + 1] = lists[j + 1], lists[j]
+    return lists
+
+test0 = [3, 22, 14, 434, 501, 11, 9, 1230, 304, 123, 5412, 381923, 302, -3, 1]
+test1 = [43, 12, 7, 9, 22, 1, 104]
+test2 = [100, 0, 0, -20, 30, -5]
+test3  = [28, 4, 17, 666, 1001, 52, 61, 30]
+print(bubblesort(test0))
+print(bubblesort(test1))
+print(bubblesort(test2))
+print(bubblesort(test3))
+
+
+#Task 11 - Implement your favorite Searching algorithm between Brute-Force search, Iterative Binary Search and Recursive Binary search on the following sorted lists and accompanying search items, in this order:
+
+#Iterative Binary Search:
+def binarysearch(arr, x):
+    low = 0
+    mid = 0
+    high = len(arr) - 1
+
+    while high >= low:
+        mid = (high + low) // 2
+
+        if arr[mid] < x:
+            low = mid + 1
+        
+        elif arr[mid] > x:
+            high = mid -1
+        
+        else:
+            return mid
+    
+    return -1
+        
+test0 = [-3, 1, 3, 9, 11, 14, 22, 123, 302, 304, 434, 501, 1230, 5412, 381923]
+searchItem0 = 13
+
+test1 = [1, 7, 9, 12, 22, 43, 104]
+searchItem1 = 9
+ 
+test2 = [-20, -5, 0, 0, 30, 100]
+searchItem2 = 31
+ 
+test3 = [4, 17, 28, 30, 52, 61, 666, 1001]
+searchItem3 = 666
+
+print(test0)
+print(test1)
+print(test2)
+print(test3)
