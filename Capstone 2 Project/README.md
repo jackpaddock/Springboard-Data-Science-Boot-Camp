@@ -63,4 +63,8 @@ The model performs well at predicting Acres Burnt per Fire by using all features
 
 By isolating the X variable to one feature, Acres Burnt, the model performs very well at predicting Acres Burnt per Fire over time.
 
+## 6. Future Improvments 
 
+- Leverage an additional dataset or two focused on global CO2 levels to see if they factor into trends found in the Wildfire dataset
+  - Dive into avenues that can explain why wildfires are most potent and costly even though the number of them over the years have declined  
+- Explore impact of inflation over time to better flatten out analysis of cost features
