@@ -40,7 +40,8 @@ I elected to work with Python's scikit-learn library, and I focused on [regressi
 ![580BE5E9-F8A6-4E07-B9EA-EB7A7AE80BF4](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/20c9519e-d927-4ae8-ae76-2fbd222d5802)
 
 > NOTE: I focused on RMSE, MAPE, and R Squared as my metrics to give me a more thorough understanding of the quality of the respective model performances. RMSE determines the absolute fit of the model to the data as it measures the average difference between a model's predicted values and its actual values. MAPE considers the sum of the individual absolute errors divided by the demand (each period separately). It is the average of the percentage errors. For both RMSE and MAPE, the lower the value the better. Finally, R Squared measures the proportion of variance in the dependent variable that can be explained by the independent variable. The greater the value the better. Vaguely, 0.65/65% or greater is considered pretty good.
-
+>
+> 
 
 ![B993CA44-136E-483B-94E7-6707DA211433_4_5005_c](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/9fc195c5-72ef-459d-9e33-f5c511785cb2)
 
