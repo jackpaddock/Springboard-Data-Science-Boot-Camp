@@ -54,7 +54,9 @@ Workbook [here](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Cam
 > NOTE: This is the same workbook as the modeling one above. The predictions are incorporated for each model. For more details regardign the linear regression, see the modeling work towards the bottom of the workbook.
 >
 > ![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/28d12608-64cb-42a8-a99d-971b056cff2b)
->
+The model performs well at predicting Acres Burnt per Fire by using all features tied to my X variable. 
+
 > ![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/0af5b7e4-5af0-4532-84ff-fdf3b6575663)
+By isolating the X variable to one feature, Acres Burnt, the model performs very well at predicting Acres Burnt per Fire over time.
 
 
