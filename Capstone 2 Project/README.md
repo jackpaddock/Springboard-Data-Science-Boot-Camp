@@ -47,4 +47,6 @@ I elected to work with Python's scikit-learn library, and I focused on [regressi
 
 ![E638C640-AB8E-4022-83A7-EDA41DB144F6_4_5005_c](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/ba23feb5-ea1b-4fe6-bdbe-95cc9bc92b2f)
 
+## 5. Linear Model Predictions
+
 
