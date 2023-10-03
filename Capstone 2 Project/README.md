@@ -29,3 +29,8 @@ Workbook [here](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Cam
 ![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/b3d17552-bfc7-4ed8-ae47-e99260715287)
 ![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/92c0cdba-913f-4af4-bca7-52f9a00eb0c9)
 
+We see that over time, the number of fires have declined while the total fire suppression cost and acres burnt have increased. This is a key finding for my clients and one that requires further investigation.
+
+## 4. Modeling via Supervised Machine Learning
+
+Workbook [here](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/blob/master/Capstone%202%20Project/Capstone%202%20-%20Modeling.ipynb)
