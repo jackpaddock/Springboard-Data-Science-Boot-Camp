@@ -7,4 +7,4 @@ Wildfires are a significant environmental issue that also endanger human lives. 
 ## 1. Data
 This Kaggle dataset is linked to The National Interagency Fire Center (NIFC). The NIFC works alongside other U.S. federal agencies in developing environmental focused regulations and by providing support and information to wildland fire personal and other emergency services employees, among other focuses. The dataset covers wildfires from 1985 to 2020.
 
-Click [here](https://www.kaggle.com/datasets/kkhandekar/total-wildfires-acres-affected-1983-2020?resource=download)
+Kaggle Dataset [here](https://www.kaggle.com/datasets/kkhandekar/total-wildfires-acres-affected-1983-2020?resource=download)
