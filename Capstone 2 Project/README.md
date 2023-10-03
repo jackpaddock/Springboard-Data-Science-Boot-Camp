@@ -12,10 +12,10 @@ Kaggle Dataset [here](https://www.kaggle.com/datasets/kkhandekar/total-wildfires
 ## 2. Data Wrangling
 This dataset is quite clean as is, so I did not need to apply drastic changes. Though, touch-up was needed to enhance the interpretability for my clients. Changes made include:
 
-- Adding currency and country
-- Convert data types to integer since the vital numeric values are objects due to their USD format
-- Scale all numeric values to same unit for ease of analysis
-- Build in additional fields to capture key metrics
+- Added currency and country fields
+- Converted data types to integer since the vital numeric values are objects due to their USD format
+- Scaled all numeric values to same unit for ease of analysis
+- Built in additional fields to capture key metrics
 
 Workbook [here](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/blob/master/Capstone%202%20Project/Capstone%202%20-%20Data%20Wrangling%20.ipynb)
 
