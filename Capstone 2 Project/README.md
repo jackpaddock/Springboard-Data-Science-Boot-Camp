@@ -35,4 +35,4 @@ We see that over time, the number of fires have declined while the total fire su
 
 Workbook [here](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/blob/master/Capstone%202%20Project/Capstone%202%20-%20Modeling.ipynb)
 
-I elected to work with Python's scikit-learn library, and I focused on regression models [here](https://scikit-learn.org/stable/supervised_learning.html#supervised-learning).
+I elected to work with Python's scikit-learn library, and I focused on [regression models](https://scikit-learn.org/stable/supervised_learning.html#supervised-learning).
