@@ -4,4 +4,4 @@
 
 In this project, I will explore underlying trends in recent American wildfire history and will leverage the correlations amongst the data to help conservationists and first responders better understand the ever changing climate.
 
-# 1. Data
+## 1. Data
