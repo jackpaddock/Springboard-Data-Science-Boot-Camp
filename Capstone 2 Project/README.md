@@ -19,4 +19,11 @@ This dataset is quite clean as is, so I did not need to apply drastic changes. T
 
 Workbook [here](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/blob/master/Capstone%202%20Project/Capstone%202%20-%20Data%20Wrangling%20.ipynb)
 
+## 3. Exploratory Data Analysis (EDA)
 
+![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/6f823fee-1dee-4efe-9de4-a58e3d1b7199)
+![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/b3d17552-bfc7-4ed8-ae47-e99260715287)
+![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/92c0cdba-913f-4af4-bca7-52f9a00eb0c9)
+
+
+Workbook [here](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/blob/master/Capstone%202%20Project/Capstone%202%20-%20Exploratory%20Data%20Analysis%20(EDA).ipynb)
