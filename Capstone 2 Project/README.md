@@ -44,6 +44,9 @@ Outliers are not overly distinguished as there is a good bit of variability in t
 
 We see that over time, the number of fires has declined while both the acres burnt, and the total fire suppression cost have increased. This is a key finding for my clients and one that requires further investigation.
 
+![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/d3f056bd-2e92-4976-aa1a-1d298f705705)
+
+
 ## 4. Modeling via Supervised Machine Learning
 
 Workbook [here](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/blob/master/Capstone%202%20Project/Capstone%202%20-%20Modeling.ipynb)
