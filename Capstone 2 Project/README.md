@@ -31,12 +31,10 @@ This dataset is quite clean as is, so I did not need to apply drastic changes. T
 Workbook [here](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/blob/master/Capstone%202%20Project/Capstone%202%20-%20Exploratory%20Data%20Analysis%20(EDA).ipynb)
 
 ![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/6f823fee-1dee-4efe-9de4-a58e3d1b7199)
-
-Outliers are distinguished at years 1989, 1996, 2006, 2012, and 2019 and there is a good bit of variability in the grouping.
+> Outliers are distinguished at years 1989, 1996, 2006, 2012, and 2019 and there is a good bit of variability in the grouping.
 
 ![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/b3d17552-bfc7-4ed8-ae47-e99260715287)
-
-Outliers are distinguished at years 2017 and 2018 but the grouping is tight.
+> Outliers are distinguished at years 2017 and 2018 but the grouping is tight.
 
 ![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/92c0cdba-913f-4af4-bca7-52f9a00eb0c9)
 > Outliers are not overly distinguished as there is a good bit of variability in the grouping.
