@@ -35,7 +35,7 @@ We see that over time, the number of fires have declined while both the acres bu
 
 Workbook [here](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/blob/master/Capstone%202%20Project/Capstone%202%20-%20Modeling.ipynb)
 
-I elected to work with Python's scikit-learn library, and I focused on [regression models](https://scikit-learn.org/stable/supervised_learning.html#supervised-learning). I tested my dataset on four models by allocating a 30%/70% test, train split. The linear regression model performed the best by a fairly large margin, so it will be leveraged for predictions.
+I elected to work with Python's scikit-learn library, and I focused on [regression models](https://scikit-learn.org/stable/supervised_learning.html#supervised-learning). I tested my dataset on four models by allocating a 30%/70% test, train split. The linear regression model performed the best by a fairly large margin, so it was leveraged for predictions.
 
 ![580BE5E9-F8A6-4E07-B9EA-EB7A7AE80BF4](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/20c9519e-d927-4ae8-ae76-2fbd222d5802)
 
