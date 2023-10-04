@@ -71,7 +71,7 @@ Given that over time, the number of fires have declined while both the acres bur
 - Make general public more aware of their potential impact on this crisis. Not all wildfires are naturally occuring.
 - Increase staff capacities across conservation agencies and first responders to better handle wildfires so they can be put out more timely
 
-## 7. Future Improvements 
+## 7. Future Work
 
 - Leverage an additional dataset or two focused on global CO2 levels to see if they factor into trends found in the Wildfire dataset
   - Dive into avenues that can explain why wildfires are most potent and costly even though the number of them over the years have declined  
