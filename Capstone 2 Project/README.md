@@ -86,7 +86,7 @@ Given that over time, the number of fires have declined while both the acres bur
 
 ## 7. Future Work
 
-- Leverage an additional dataset or two focused on global CO2 levels to see if they factor into trends found in the Wildfire dataset
-  - Dive into avenues that can explain why wildfires are most potent and costly even though the number of them over the years have declined  
-- Explore impact of inflation over time to better flatten out analysis of cost features
-- Explore which regions or states are most impacted by wildfires
+- Leverage an additional dataset or two focused on global CO2 levels to see if they factor into trends found in the Wildfire dataset.
+  - Dive into avenues that can explain why wildfires are most potent and costly even though the number of them over the years have declined.
+- Explore impact of inflation over time to better flatten out analysis of cost features.
+- Explore which regions or states are most impacted by wildfires.
