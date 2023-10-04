@@ -39,7 +39,6 @@ Outliers are distinguished at years 1989, 1996, 2006, 2012, and 2019 and there i
 Outliers are distinguished at years 2017 and 2018 but the grouping is tight.
 
 ![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/92c0cdba-913f-4af4-bca7-52f9a00eb0c9)
-
 Outliers are not overly distinguished as there is a good bit of variability in the grouping.
 
 We see that over time, the number of fires has declined while both the acres burnt, and the total fire suppression cost have increased. This is a key finding for my clients and one that requires further investigation.
