@@ -17,7 +17,8 @@ Workbook [here](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Cam
 This dataset is quite clean as is, so I did not need to apply drastic changes. Though, touch-up was needed to enhance the interpretability for my clients. Changes made include:
 
 - Added currency and country fields for better interpretability
-- Converted data types to integer since the vital numeric values are objects due to their USD format
+- Stripped commas and USD format of applicable fields.
+- Converted data types to integer format since applicable numeric values are object format due to their USD format.
 - Scaled all numeric values to same unit for ease of analysis
 - Built in additional fields to capture key metrics
 
