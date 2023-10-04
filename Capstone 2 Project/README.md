@@ -20,7 +20,7 @@ This dataset is quite clean as is, so I did not need to apply drastic changes. T
 - Added currency and country fields for better interpretability.
 - Renamed fields for better interpretability.
 - Converted data types to integer format since applicable numeric values are object format due to their USD format.
-- Scaled all numeric values to same unit for ease of analysis.
+- Scaled all numeric values to same unit for ease of analysis (in Millions).
 - Built in additional fields to capture key metrics.
   - Acres Burnt per Fire
   - Suppression Cost per Fire
