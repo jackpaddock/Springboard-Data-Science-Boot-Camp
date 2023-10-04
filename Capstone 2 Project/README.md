@@ -12,6 +12,8 @@ This Kaggle dataset is linked to The National Interagency Fire Center (NIFC). Th
 
 ## 2. Background on NIFC
 
+NIFC is home to the national fire management programs of each federal fire agency, along with partners including the National Association of State Foresters, the U.S. Fire Administration, and the National Weather Service. Fire management under this larger umbrella is designed to achieve not only suppression goals, but to accomplish a broad spectrum of natural resource objectives, and do so in an efficient, cost-effective manner.
+
 ## 3. Data Wrangling
 
 Workbook [here](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/blob/master/Capstone%202%20Project/Capstone%202%20-%20Data%20Wrangling%20.ipynb)
