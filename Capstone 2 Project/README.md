@@ -10,7 +10,9 @@ Kaggle Dataset [here](https://www.kaggle.com/datasets/kkhandekar/total-wildfires
 
 This Kaggle dataset is linked to The National Interagency Fire Center (NIFC). The NIFC works alongside other U.S. federal agencies in developing environmental focused regulations and by providing support and information to wildland fire personal and other emergency services employees, among other focuses. The dataset covers wildfires from 1985 to 2020.
 
-## 2. Data Wrangling
+## 2. Background on NIFC
+
+## 3. Data Wrangling
 
 Workbook [here](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/blob/master/Capstone%202%20Project/Capstone%202%20-%20Data%20Wrangling%20.ipynb)
 
@@ -22,7 +24,7 @@ This dataset is quite clean as is, so I did not need to apply drastic changes. T
 - Scaled all numeric values to same unit for ease of analysis
 - Built in additional fields to capture key metrics
 
-## 3. Exploratory Data Analysis (EDA)
+## 4. Exploratory Data Analysis (EDA)
 
 Workbook [here](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/blob/master/Capstone%202%20Project/Capstone%202%20-%20Exploratory%20Data%20Analysis%20(EDA).ipynb)
 
@@ -32,7 +34,7 @@ Workbook [here](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Cam
 
 We see that over time, the number of fires have declined while both the acres burnt and the total fire suppression cost have increased. This is a key finding for my clients and one that requires further investigation.
 
-## 4. Modeling via Supervised Machine Learning
+## 5. Modeling via Supervised Machine Learning
 
 Workbook [here](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/blob/master/Capstone%202%20Project/Capstone%202%20-%20Modeling.ipynb)
 
@@ -50,7 +52,7 @@ I elected to work with Python's scikit-learn library, and I focused on [regressi
 
 ![4F3A9926-6AD5-4EFD-A688-D97DF29A6938_4_5005_c](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/45759175-e1b1-4e55-8b3b-2b2dfe640120)
 
-## 5. Linear Model Predictions
+## 6. Linear Model Predictions
 
 Workbook [here](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/blob/master/Capstone%202%20Project/Capstone%202%20-%20Modeling.ipynb)
 
@@ -64,7 +66,7 @@ The model performs well at predicting Acres Burnt per Fire by using all features
 
 By isolating the X variable to one feature, Acres Burnt, the model performs very well at predicting Acres Burnt per Fire over time.
 
-## 6. Client Recommendations
+## 7. Client Recommendations
 
 Given that over time, the number of fires have declined while both the acres burnt and the total fire suppression cost have increased, recommendations are:
 
@@ -72,7 +74,7 @@ Given that over time, the number of fires have declined while both the acres bur
 - Make general public more aware of their potential impact on this crisis. Not all wildfires are naturally occuring.
 - Increase staff capacities across conservation agencies and first responders to better handle wildfires so they can be put out more timely
 
-## 7. Future Work
+## 8. Future Work
 
 - Leverage an additional dataset or two focused on global CO2 levels to see if they factor into trends found in the Wildfire dataset
   - Dive into avenues that can explain why wildfires are most potent and costly even though the number of them over the years have declined  
