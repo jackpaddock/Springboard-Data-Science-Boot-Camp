@@ -21,6 +21,9 @@ This dataset is quite clean as is, so I did not need to apply drastic changes. T
 - Converted data types to integer format since applicable numeric values are object format due to their USD format.
 - Scaled all numeric values to same unit for ease of analysis.
 - Built in additional fields to capture key metrics.
+  - Acres Burnt per Fire
+  - Suppression Cost per Fire
+  - Year over Year Change in Fire Suppression Cost
 
 ## 3. Exploratory Data Analysis (EDA)
 
