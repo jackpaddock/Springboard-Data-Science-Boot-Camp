@@ -78,11 +78,11 @@ By isolating the X variable to one feature, Acres Burnt, the model performs very
 
 ## 6. Client Recommendations
 
-Given that over time, the number of fires have declined while both the acres burnt and the total fire suppression cost have increased, recommendations are:
+Given that over time, the number of fires has declined while both the acres burnt and the total fire suppression cost have increased, recommendations are:
 
-- Push local governments for more conversation resources and practices to be implemented to protect forests
-- Make general public more aware of their potential impact on this crisis. Not all wildfires are naturally occuring.
-- Increase staff capacities across conservation agencies and first responders to better handle wildfires so they can be put out more timely
+- Push local governments for more conversation resources and practices to be implemented to protect forests.
+- Make the general public more aware of their potential impact on this crisis. Not all wildfires are naturally occuring.
+- Increase staff capacities across conservation agencies and first responders to better handle wildfires so they can be put out timelier.
 
 ## 7. Future Work
 
