@@ -29,7 +29,7 @@ Workbook [here](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Cam
 ![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/b3d17552-bfc7-4ed8-ae47-e99260715287)
 ![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/92c0cdba-913f-4af4-bca7-52f9a00eb0c9)
 
-We see that over time, the number of fires have declined while the total fire suppression cost and acres burnt have increased. This is a key finding for my clients and one that requires further investigation.
+We see that over time, the number of fires have declined while both the acres burnt and the total fire suppression cost have increased. This is a key finding for my clients and one that requires further investigation.
 
 ## 4. Modeling via Supervised Machine Learning
 
@@ -63,7 +63,15 @@ The model performs well at predicting Acres Burnt per Fire by using all features
 
 By isolating the X variable to one feature, Acres Burnt, the model performs very well at predicting Acres Burnt per Fire over time.
 
-## 6. Future Improvments 
+## 6. Client Recommendations
+
+Given that over time, the number of fires have declined while both the acres burnt and the total fire suppression cost have increased, recommendations are:
+
+- Push local governments for more conversation resources and practices to be implemented to protect forests
+- Make general public more aware of their potential impact on this crisis. Not all wildfires are naturally occuring.
+- Increase staff capacities across conservation agencies and first responders to better handle wildfires so they can be put out more timely
+
+## 7. Future Improvments 
 
 - Leverage an additional dataset or two focused on global CO2 levels to see if they factor into trends found in the Wildfire dataset
   - Dive into avenues that can explain why wildfires are most potent and costly even though the number of them over the years have declined  
