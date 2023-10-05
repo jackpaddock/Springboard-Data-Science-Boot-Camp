@@ -74,7 +74,7 @@ The model performs well at predicting "Acres Burnt per Fire" by using all featur
 
 ![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/0af5b7e4-5af0-4532-84ff-fdf3b6575663)
 
-By isolating the X variable to one feature, "Acres Burnt", the model performs very well at predicting Acres Burnt per Fire over time.
+By isolating the X variable to one feature, "Acres Burnt," the model performs very well at predicting Acres Burnt per Fire over time.
 
 ## 6. Client Recommendations
 
