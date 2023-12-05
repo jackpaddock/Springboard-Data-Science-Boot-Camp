@@ -45,7 +45,7 @@ We see that over time, the number of fires has declined while both the acres bur
 
 ## 4. Modeling via Supervised Machine Learning
 
-Workbook [here](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/blob/master/Capstone%202%20Project/Capstone%202%20-%20Modeling.ipynb)
+Workbook [here](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/blob/master/Capstone%203%20Project/Capstone_3_Pre_processing_Work_and_Modeling_Final.ipynb)
 
 I elected to work with Python's scikit-learn library, and I focused on [regression analysis](https://scikit-learn.org/stable/supervised_learning.html#supervised-learning). I dropped features “Years,” “Country,” and “Currency.” The “Years” feature was dropped as regression analysis’ basis is not predicting time, so I did not see value in its inclusion. I tested the dataset on four models by allocating a 30%/70% test, train split with my target variable being the feature "Acres Burnt per Fire." The linear regression model performed the best by a fairly large margin, so it was leveraged for predictions.
 
