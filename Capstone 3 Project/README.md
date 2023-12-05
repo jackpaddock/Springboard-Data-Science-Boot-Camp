@@ -16,17 +16,14 @@ Both Kaggle datasets are from Spotify's API which is ideal for data quality and 
 
 Workbook [here](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/blob/master/Capstone%202%20Project/Capstone%202%20-%20Data%20Wrangling%20.ipynb)
 
-This dataset is quite clean as is, so I did not need to apply drastic changes. Though, touch-up was needed to enhance the interpretability for my clients. Changes made include:
+Both datasets are quite clean as is, so I did not need to apply drastic changes. Though, touch-up was needed to enhance the interpretability for my clients. Changes made include:
 
-- Stripped commas and USD format of applicable fields.
-- Added currency and country fields for better interpretability.
+- 15 values or 0.13% of the artist_name field were missing. Filled with value "other" in Dataset1
+- 1 value or 0.01% of the track_name field was missing. Filled with value "other."
+- Converted track duration from milliseconds to minutes for better interpretability.
 - Renamed fields for better interpretability.
-- Converted data types to integer format since applicable numeric values are object format due to their USD format.
-- Scaled all numeric values to same unit for ease of analysis (in Millions).
-- Built in additional fields to capture key metrics.
-  - Acres Burnt per Fire
-  - Suppression Cost per Fire
-  - Year over Year Change in Fire Suppression Cost
+- Deleted duplicate field in Dataset 2.
+- Stripped brackets and quotes in artist_name field in Dataset 2.
 
 ## 3. Exploratory Data Analysis (EDA)
 
