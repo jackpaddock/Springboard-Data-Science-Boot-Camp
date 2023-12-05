@@ -2,9 +2,7 @@
 
 # Spotify Music 1921-2023 - What Makes a Track or Genre Popular Over Time?
 
-Evolution is a defining life theme. Regardless of the measure... people, technology, fashion, or music, 
-
-Wildfires are a significant environmental issue that also endanger human lives. Due to varying factors, their impact is immense and they tend to make headline news these days. In an ever changing world, my clients (conservationists and first responders) must better understand newfound wildfire related trends and adapt in order to more efficiently and effectively put wildfires out. In this project, I will explore underlying trends in recent American wildfire history and will leverage the correlations amongst the data to help my clients better understand the ever changing climate.
+Evolution is a defining life theme. Regardless of the measure... people, technology, fashion, or even music, these aspects of life evolve under the pressure and impact of both one another and from the societies behind them from generation to generation. Each generation differs from the next and that is what is both telling and interesting. Why were certain measures defind in the ways they were to one generation but the same measures look and feel mch different to the next generation? In this project, I will explore the underlying music trends spanning 1921-2023, and I will leverage the correlations amongst the data to help my clients better understand the ever changing music industry from a consumer perspective.
 
 ## 1. Data
 
