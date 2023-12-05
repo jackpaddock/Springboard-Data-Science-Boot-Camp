@@ -1,6 +1,6 @@
 ![image](https://i0.wp.com/blog.tunemymusic.com/wp-content/uploads/2023/08/green-black-3D-Spotify-logo-alexander-shatov-JlO3-oY5ZlQ-unsplash.jpg?fit=400%2C250&ssl=1)
 
-# Spotify Music 1921-2023 - What Makes a Track or Genre Popular Over Time?
+# Spotify Music 1921-2023 - What Makes a Track or Genre Popular and How Has Music Changed Over Time?
 
 Evolution is a defining life theme. Regardless of the measure... people, technology, fashion, or even music, these aspects of life evolve under the pressure and impact of both one another and from the societies behind them from generation to generation. Each generation differs from the next and that is what is both telling and interesting. Why were certain measures defind in the ways they were to one generation but the same measures look and feel mch different to the next generation? In this project, I will explore the underlying music trends spanning 1921-2023, and I will leverage the correlations amongst the data to help my clients better understand the ever changing music industry from a consumer perspective.
 
