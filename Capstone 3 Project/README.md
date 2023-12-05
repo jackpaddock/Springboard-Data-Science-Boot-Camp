@@ -14,7 +14,7 @@ Both Kaggle datasets are from Spotify's API which is ideal for data quality and 
 
 ## 2. Data Wrangling
 
-Workbook [here](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/blob/master/Capstone%202%20Project/Capstone%202%20-%20Data%20Wrangling%20.ipynb)
+Workbook [here](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/blob/master/Capstone%203%20Project/Capstone%203%20-%20Data%20Wrangling.ipynb)
 
 Both datasets are quite clean as is, so I did not need to apply drastic changes. Though, touch-up was needed to enhance the interpretability for my clients. Changes made include:
 
