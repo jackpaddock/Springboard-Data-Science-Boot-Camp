@@ -1,14 +1,18 @@
 ![image](https://i0.wp.com/blog.tunemymusic.com/wp-content/uploads/2023/08/green-black-3D-Spotify-logo-alexander-shatov-JlO3-oY5ZlQ-unsplash.jpg?fit=400%2C250&ssl=1)
 
-# U.S. Wildfires - Is There a Greater Issue at Hand?
+# Spotify Music 1921-2023 - What Makes a Track or Genre Popular Over Time?
+
+Evolution is a defining life theme. Regardless of the measure... people, technology, fashion, or music, 
 
 Wildfires are a significant environmental issue that also endanger human lives. Due to varying factors, their impact is immense and they tend to make headline news these days. In an ever changing world, my clients (conservationists and first responders) must better understand newfound wildfire related trends and adapt in order to more efficiently and effectively put wildfires out. In this project, I will explore underlying trends in recent American wildfire history and will leverage the correlations amongst the data to help my clients better understand the ever changing climate.
 
 ## 1. Data
 
-Kaggle Dataset [here](https://www.kaggle.com/datasets/kkhandekar/total-wildfires-acres-affected-1983-2020?resource=download)
+Kaggle Dataset 1 [here](https://www.kaggle.com/datasets/amitanshjoshi/spotify-1million-tracks)
 
-This Kaggle dataset is linked to The National Interagency Fire Center (NIFC). The NIFC works alongside other U.S. federal agencies in developing environmental focused regulations and by providing support and information to wildland fire personal and other emergency services employees, among other focuses. The dataset covers wildfires from 1985 to 2020.
+Kaggle Dataset 2 [here](https://www.kaggle.com/datasets/ektanegi/spotifydata-19212020)
+
+Both Kaggle datasets are from Spotify's API which is ideal for data quality and validation purposes. Hence, why I elected to leverage both for my analysis.
 
 ## 2. Data Wrangling
 
