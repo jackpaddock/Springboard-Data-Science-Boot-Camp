@@ -29,8 +29,7 @@ Both datasets are quite clean as is, so I did not need to apply drastic changes.
 
 Workbook [here](![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/0d25b23c-b8b1-43df-9fd2-a9549c3c0aec))
 
-Key Findings are Below:
-
+**Key Non-Feature Findings are Below:**
 - There are 82 unique genres spanning 2000-2023
   - The 1921-1999 dataset (Dataset 2) does not have the "genre" feature, so I couldn't measure it
 - Songs have become noticeably less acoustic over time as the average value was around 0.7-1 from 1921-1964, then the range became 0.42-0.61 from 1965-1975, then the range hung     around 0.30 or so from 1976-2023. 
@@ -39,32 +38,25 @@ Key Findings are Below:
 - As expected, energy has increased over time and it has held strong in the sub 0.60-00.65 range from 1979-2023. And, danceability has mostly remained the same which makes sense    as music is generational hence, danceability is subjective and relative to its era. Lastly, loudness has increased over time which likely is due to the advancement of             technology, the creation process (ex. use of cumputers, studios, etc that previous generations did not have access to), generational appetites, and so on.
 - Tempo has gradually increased over time and its range between the maximum and minimum values are much tighter than I anticipated (123.41-100.40).
 
-The Top 25 Genres from 2000-2023:
+**The Top 25 Genres from 2000-2023:**
 - ![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/f1735020-fbda-4155-a580-abfe23808170)
 
-Track Popularity from 2000-2023:
+**Track Popularity from 2000-2023:**
 - ![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/3b2b3f1e-8afd-4655-8b5c-56585e2e2308)
 
-
-Track Popularity from 1921-1999:
+**Track Popularity from 1921-1999:**
 - ![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/4becea59-95e0-4cae-b625-75035e94574e)
 
+**Track Duration from 2000-2023:**
+- ![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/ea4a444c-ff9b-45b8-bebc-737d55feddd5)
 
+**Track Duration from 1921-1999:**
+- ![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/ac3499b7-1487-416c-a563-e24ab992aa15)
 
+**Key Feature Findings are Below:**
+- For the 2000-2023 datset:
+  - While focusing on track's/genre's respective popularities, key insights were found. The following analysis is from an "on average" perspective. The less acoustic, the more popular a track/genre is. Though, acousticness's impact on popularity is not strong. Energy's popularity sweet spot, which is measured between 0-1, hovers around 0.50-0.75. The more danceable a track/genre, the more popular... 0.55-0.75 is the sweet spot. Valence is not a strong predictor of popularity while on the other hand, speechiness is. The less speechiness, the more popular (sweet spot is 0-0.10). Loudness also is a strong predictor of popularity as its sweet spot is -15 to -5 dBs. Lastly, instrumentalness is like valence where it's not a strong predictor of popularity, though, an instrumentallness of 0 is most possible.
 
-![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/6f823fee-1dee-4efe-9de4-a58e3d1b7199)
-> Outliers are distinguished at years 1989, 1996, 2006, 2012, and 2019 and there is a good bit of variability in the grouping.
-
-![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/b3d17552-bfc7-4ed8-ae47-e99260715287)
-> Outliers are distinguished at years 2017 and 2018 but the grouping is tight.
-
-![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/92c0cdba-913f-4af4-bca7-52f9a00eb0c9)
-> Outliers are not overly distinguished as there is a good bit of variability in the grouping.
-
-We see that over time, the number of fires has declined while both the acres burnt, and the total fire suppression cost have increased. This is a key finding for my clients and one that requires further investigation beyond this report. A number of explanations could factor in. Also, there are a few outlier data points (called out under graphs above) but they were not discarded.
-
-![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/d3f056bd-2e92-4976-aa1a-1d298f705705)
-> The dataset has nine features which is not many, but the correlations are positively strong enough to leverage. Two features, “Country” and “Currency” are not numeric. Hence, there exclusion from the heat map above. To no surprise, there is a relatively strong positive relationship between fields like "Suppression Cost per Fire" and "Acres Burnt" (correlation of 0.64) and there is a strong positive relationship between fields like "Total Fire Suppression Cost" and "Suppression Cost per Fire" (correlation of 0.96). Inversely, there are low positive correlations and low negative correlations for the feature "Fires." The feature "Year over Year Change in Fire Suppression Cost" also has low positive correlations.
 
 ## 4. Modeling via Supervised Machine Learning
 
