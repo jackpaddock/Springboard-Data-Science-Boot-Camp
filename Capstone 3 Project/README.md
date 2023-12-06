@@ -27,7 +27,7 @@ Both datasets are quite clean as is, so I did not need to apply drastic changes.
 
 ## 3. Exploratory Data Analysis (EDA)
 
-Workbook [here](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/blob/master/Capstone%203%20Project/Capstone%203%20-%20Exploratory%20Data%20Analysis.ipynb)
+Workbook [here](![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/0d25b23c-b8b1-43df-9fd2-a9549c3c0aec))
 
 Key Findings are Below:
 
