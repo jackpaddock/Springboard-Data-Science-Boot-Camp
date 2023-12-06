@@ -40,8 +40,9 @@ Key Findings are Below:
 - Tempo has gradually increased over time and its range between the maximum and minimum values are much tighter than I anticipated (123.41-100.40).
 
 The Top 25 Genres from 2000-2023:
-![image](![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/d931ce51-5f11-470a-80e6-4e65a92260ce)
-)
+![image](![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/d931ce51-5f11-470a-80e6-4e65a92260ce))
+
+
 
 ![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/6f823fee-1dee-4efe-9de4-a58e3d1b7199)
 > Outliers are distinguished at years 1989, 1996, 2006, 2012, and 2019 and there is a good bit of variability in the grouping.
