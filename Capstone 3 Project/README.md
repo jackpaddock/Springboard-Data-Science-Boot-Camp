@@ -83,17 +83,14 @@ I elected to work with Python's scikit-learn library, and I focused on [regressi
 Workbook [here](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/blob/master/Capstone%203%20Project/Capstone_3_Pre_processing_Work_and_Modeling_Final.ipynb)
 
 > NOTE: This is the same workbook as the modeling one above. The predictions are incorporated for each model. For more details regardiNG the XGB regression, see the modeling work towards the bottom of the workbook.
-
+> 
+The model tied to Dataset 1 performs well at predicting 'popularity' by using all features tied to my X variable. 
 ![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/29096af0-a214-4d44-be3f-5f4f02f7d57a)
 ![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/49308f34-8bbd-4aba-a747-7df3e7050e48)
 
-The model tied to Dataset 1 performs well at predicting 'popularity' by using all features tied to my X variable. 
-
+The model tied to Dataset 2 does not perform well at predicting 'popularity' by using all features tied to my X variable.
 ![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/6f631d6c-a29b-4394-84cb-eef481c43769)
 ![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/79e48d92-6dc7-4c18-ab6a-763d2f7d10f5)
-
-The model tied to Dataset 2 does not perform well at predicting 'popularity' by using all features tied to my X variable.
-
 
 ## 6. Client Recommendations
 
