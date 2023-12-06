@@ -103,7 +103,7 @@ Given the music indutry's fluctuation over time:
   - Remain flexible so one can cater more effciently to trends and shifts
 - Cater venues/shows to feature the most popular artists to ensure profitability benchmarks are hit... so provide your target audeince(s) with who they want, if possible.
   - Explore merchandise for most popular artists as well.
-- Understand that track/artist/genre popularity varies by generation and that popularity is affected by numerous features varying from danceability, energy, loudness, valnce and     so on.
+- Understand that track/artist/genre popularity varies by generation and that popularity is affected by numerous features varying from danceability, energy, loudness, valence and so on.
 
 ## 7. Future Work
 
