@@ -30,6 +30,7 @@ Both datasets are quite clean as is, so I did not need to apply drastic changes.
 Workbook [here](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/blob/master/Capstone%203%20Project/Capstone%203%20-%20Exploratory%20Data%20Analysis.ipynb)
 
 Key findings are below:
+
 - There are 82 unique genres spanning 2000-2023
   - The 1921-1999 dataset (Dataset 2) does not have the "genre" feature, so I couldn't measure it
 - Songs have become noticeably less acoustic over time as the average value was around 0.7-1 from 1921-1964, then the range became 0.42-0.61 from 1965-1975, then the range hung around 0.30 or so from 1976-2023. 
