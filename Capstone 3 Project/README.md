@@ -42,7 +42,12 @@ Key Findings are Below:
 The Top 25 Genres from 2000-2023:
 - ![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/f1735020-fbda-4155-a580-abfe23808170)
 
+Track Popularity from 2000-2023:
+- ![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/3b2b3f1e-8afd-4655-8b5c-56585e2e2308)
 
+
+Track Popularity from 1921-1999:
+- ![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/4becea59-95e0-4cae-b625-75035e94574e)
 
 
 
