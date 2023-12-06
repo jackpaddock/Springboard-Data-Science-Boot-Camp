@@ -78,19 +78,22 @@ I elected to work with Python's scikit-learn library, and I focused on [regressi
 
 ![4F3A9926-6AD5-4EFD-A688-D97DF29A6938_4_5005_c](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/45759175-e1b1-4e55-8b3b-2b2dfe640120)
 
-## 5. Linear Model Predictions
+## 5. XGB Model Predictions
 
-Workbook [here](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/blob/master/Capstone%202%20Project/Capstone%202%20-%20Modeling.ipynb)
+Workbook [here](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/blob/master/Capstone%203%20Project/Capstone_3_Pre_processing_Work_and_Modeling_Final.ipynb)
 
-> NOTE: This is the same workbook as the modeling one above. The predictions are incorporated for each model. For more details regardign the linear regression, see the modeling work towards the bottom of the workbook.
+> NOTE: This is the same workbook as the modeling one above. The predictions are incorporated for each model. For more details regardiNG the XGB regression, see the modeling work towards the bottom of the workbook.
 
-![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/28d12608-64cb-42a8-a99d-971b056cff2b)
+![image](![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/152cd86e-faa2-48f5-93fb-0e554c11252d))
+![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/49308f34-8bbd-4aba-a747-7df3e7050e48)
 
-The model performs well at predicting "Acres Burnt per Fire" by using all features tied to my X variable. 
+The model tied to Dataset 1 performs well at predicting 'popularity' by using all features tied to my X variable. 
 
-![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/0af5b7e4-5af0-4532-84ff-fdf3b6575663)
+![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/6f631d6c-a29b-4394-84cb-eef481c43769)
+![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/79e48d92-6dc7-4c18-ab6a-763d2f7d10f5)
 
-By isolating the X variable to one feature, "Acres Burnt," the model performs very well at predicting Acres Burnt per Fire over time.
+The model tied to Dataset 2 does not perform well at predicting 'popularity' by using all features tied to my X variable.
+
 
 ## 6. Client Recommendations
 
