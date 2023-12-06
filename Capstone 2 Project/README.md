@@ -66,7 +66,7 @@ I elected to work with Python's scikit-learn library, and I focused on [regressi
 
 Workbook [here](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/blob/master/Capstone%202%20Project/Capstone%202%20-%20Modeling.ipynb)
 
-> NOTE: This is the same workbook as the modeling one above. The predictions are incorporated for each model. For more details regardign the linear regression, see the modeling work towards the bottom of the workbook.
+> NOTE: This is the same workbook as the modeling one above. The predictions are incorporated for each model. For more details regarding the linear regression, see the modeling work towards the bottom of the workbook.
 
 ![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/28d12608-64cb-42a8-a99d-971b056cff2b)
 
