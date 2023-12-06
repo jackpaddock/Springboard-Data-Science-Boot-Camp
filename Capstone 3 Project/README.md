@@ -29,6 +29,9 @@ Both datasets are quite clean as is, so I did not need to apply drastic changes.
 
 Workbook [here](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/blob/master/Capstone%203%20Project/Capstone%203%20-%20Exploratory%20Data%20Analysis.ipynb)
 
+![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/4b8ac583-b8e5-44fa-be24-e38710a87d03)
+
+
 **Key Non-Feature Findings are Below:**
 - There are 82 unique genres spanning 2000-2023
   - The 1921-1999 dataset (Dataset 2) does not have the "genre" feature, so I couldn't measure it
@@ -84,26 +87,28 @@ Workbook [here](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Cam
 
 > NOTE: This is the same workbook as the modeling one above. The predictions are incorporated for each model. For more details regardiNG the XGB regression, see the modeling work towards the bottom of the workbook.
 > 
-The model tied to Dataset 1 performs well at predicting 'popularity' by using all features tied to my X variable. 
+The model tied to Dataset 1 performs well at predicting 'popularity' by using all features tied to the X variable. 
 ![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/29096af0-a214-4d44-be3f-5f4f02f7d57a)
 ![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/49308f34-8bbd-4aba-a747-7df3e7050e48)
 
-The model tied to Dataset 2 does not perform well at predicting 'popularity' by using all features tied to my X variable.
+The model tied to Dataset 2 does not perform well at predicting 'popularity' by using all features tied to the X variable.
 ![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/6f631d6c-a29b-4394-84cb-eef481c43769)
 ![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/79e48d92-6dc7-4c18-ab6a-763d2f7d10f5)
 
 ## 6. Client Recommendations
 
-Given that over time, the number of fires has declined while both the acres burnt and the total fire suppression cost have increased, recommendations are:
+Given the music indutry's fluctuation over time:
 
-- Push local governments for more conversation resources and practices to be implemented to protect forests.
-- Make the public more aware of their potential impact on this crisis. Not all wildfires are naturally occuring.
-- Increase staff capacities across conservation agencies and first responders to better handle wildfires so they can be put out timelier.
+- Stay up-to-date on trends and shifts in the industry year-over-year... it moves faster these days.
+  - Remain flexible so one can cater more effciently to trends and shifts
+- Cater venues/shows to feature the most popular artists to ensure profitability benchmarks are hit... so provide your target audeince(s) with who they want, if possible.
+  - Explore merchandise for most popular artists as well.
+- Understand that track/artist/genre popularity varies by generation and that popularity is affected by numerous features varying from danceability, energy, loudness, valnce and     so on.
 
 ## 7. Future Work
 
-- Leverage an additional dataset or two focused on global CO2 levels to see if they factor into trends found in the Wildfire dataset.
-  - Dive into avenues that can explain why wildfires are most potent and costly even though the number of them over the years have declined.
-- Explore impact of inflation over time to better flatten out analysis of cost features.
-- Explore which regions or states are most impacted by wildfires.
+- Hit Spotify's API to pull more data tied to the years 1921-1999. The primary goal would be to have scale like Dataset 1 where the row count is over one million and where each      line item is grouped by genre like Dataset 1. This thought assumes the results would be better than Dataset 2.
+- Explore impact of cultural changes over time to understand its impact on genre popularity
+- Leverage an additional dataset to explore which regions or states in the U.S. or broader scale... which countries prefer which genres over time.
+- Leverage an addiitonal datatset, if avaialble, to explore social media's impact on genre or artist popularity over time.
 
