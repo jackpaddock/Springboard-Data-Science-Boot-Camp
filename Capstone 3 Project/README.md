@@ -48,9 +48,9 @@ Workbook [here](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Cam
 - ![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/ac3499b7-1487-416c-a563-e24ab992aa15)
 
 **Key Feature Findings are Below:**
-- For the 2000-2023 datset:
+- For the 2000-2023 datset (Dataset1):
   - While focusing on track's/genre's respective popularities, key insights were found. The following analysis is from an "on average" perspective. The less acoustic, the more         popular a track/genre is. Though, acousticness's impact on popularity is not strong. Energy's popularity sweet spot, which is measured between 0-1, hovers around 0.50-0.75.        The more danceable a track/genre, the more popular... 0.55-0.75 is the sweet spot. Valence is not a strong predictor of popularity while on the other hand, speechiness is.         The less speechiness, the more popular (sweet spot is 0-0.10). Loudness also is a strong predictor of popularity as its sweet spot is -15 to -5 dBs. Lastly, instrumentalness       is like valence where it's not a strong predictor of popularity, though, an instrumentallness of 0 is most popular.
-- For the 1921-1999 datset:
+- For the 1921-1999 datset (Dataset2):
   - While focusing on track's/genre's respective popularities, key insights were found. The following analysis is from an "on average" perspective. The less acoustic, the more         popular a track/genre is. Though, acousticness's impact on popularity is not strong. Energy's popularity sweet spot, which is measured between 0-1, hovers around 0.65-0.95         which is greater than the file_2000_2023_spotify dataframe. The more danceable a track/genre, the more popular... 0.55-0.75 is the sweet spot just like the                     
     file_2000_2023_spotify dataframe. Valence is not a strong predictor of popularity while on the other hand, speechiness is. The less speechiness, the more popular (sweet spot 
     is 0-0.05). Loudness also is a strong predictor of popularity as its sweet spot is -15 to -5 dBs. Lastly, instrumentalness is like valence where it's not a strong predictor of 
@@ -61,7 +61,7 @@ Workbook [here](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Cam
 
 Workbook [here](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/blob/master/Capstone%203%20Project/Capstone_3_Pre_processing_Work_and_Modeling_Final.ipynb)
 
-I elected to work with Python's scikit-learn library, and I focused on [regression analysis](https://scikit-learn.org/stable/supervised_learning.html#supervised-learning). I dropped features “Years,” “Country,” and “Currency.” The “Years” feature was dropped as regression analysis’ basis is not predicting time, so I did not see value in its inclusion. I tested the dataset on four models by allocating a 30%/70% test, train split with my target variable being the feature "Acres Burnt per Fire." The linear regression model performed the best by a fairly large margin, so it was leveraged for predictions.
+I elected to work with Python's scikit-learn library, and I focused on [regression analysis](https://scikit-learn.org/stable/supervised_learning.html#supervised-learning). For Dataset 1, I dropped features 'artist_name', 'genre', 'time_signature', 'track_id', 'track_name' and for Dataset 2, I dropped features 'artist_name', 'explicit' , 'id', 'track_name.' I tested the datasets on six models by allocating a 20%/80% test, train split with my target variable being the feature 'popularity.' For each dataset, the XGB regression model performed the best by a slight margins, so they were leveraged for respective predictions for each dataset.
 
 ![580BE5E9-F8A6-4E07-B9EA-EB7A7AE80BF4](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/20c9519e-d927-4ae8-ae76-2fbd222d5802)
 
