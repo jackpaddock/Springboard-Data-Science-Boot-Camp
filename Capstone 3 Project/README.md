@@ -97,11 +97,11 @@ The model tied to Dataset 2 does not perform well at predicting 'popularity' by 
 
 ## 6. Client Recommendations
 
-Given the music indutry's fluctuation over time:
+Given the music industry's fluctuation over time:
 
-- Stay up-to-date on trends and shifts in the industry year-over-year... it moves faster these days.
-  - Remain flexible so one can cater more effciently to trends and shifts
-- Cater venues/shows to feature the most popular artists to ensure profitability benchmarks are hit... so provide your target audeince(s) with who they want, if possible.
+- Stay up to date on trends and shifts in the industry year-over-year... it moves faster these days.
+  - Remain flexible so one can cater more efficiently to trends and shifts.
+- Cater venues/shows to feature the most popular artists to ensure profitability benchmarks are hit... so provide your target audience(s) with who they want, if possible.
   - Explore merchandise for most popular artists as well.
 - Understand that track/artist/genre popularity varies by generation and that popularity is affected by numerous features varying from danceability, energy, loudness, valence and so on.
 
