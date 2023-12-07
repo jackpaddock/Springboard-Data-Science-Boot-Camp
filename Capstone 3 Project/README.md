@@ -64,7 +64,7 @@ Workbook [here](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Cam
 
 Workbook [here](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/blob/master/Capstone%203%20Project/Capstone_3_Pre_processing_Work_and_Modeling_Final.ipynb)
 
-I elected to work with Python's scikit-learn library, and I focused on [regression analysis](https://scikit-learn.org/stable/supervised_learning.html#supervised-learning). For Dataset 1, I dropped features 'artist_name', 'genre', 'time_signature', 'track_id', 'track_name' and for Dataset 2, I dropped features 'artist_name', 'explicit' , 'id', 'track_name.' I tested the datasets on six models by allocating a 20%/80% test, train split with my target variable being the feature 'popularity.' For each dataset, the XGB regression model performed the best by a slight margins, so they were leveraged for respective predictions for each dataset.
+I elected to work with Python's scikit-learn library, and I focused on [regression analysis](https://scikit-learn.org/stable/supervised_learning.html#supervised-learning). For Dataset 1, I dropped features 'artist_name', 'genre', 'time_signature', 'track_id', 'track_name' and for Dataset 2, I dropped features 'artist_name', 'explicit', 'id', 'track_name.' I tested the datasets on six models by allocating a 20%/80% test, train split with my target variable being the feature 'popularity.' For each dataset, the XGB regression model performed the best by a slight margins, so they were leveraged for respective predictions for each dataset.
 
 ![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/0a2efd06-22d8-4581-9efe-a77f11e3356c)
 
