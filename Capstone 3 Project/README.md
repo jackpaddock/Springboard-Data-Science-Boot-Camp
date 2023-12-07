@@ -51,9 +51,9 @@ Workbook [here](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Cam
 - ![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/ac3499b7-1487-416c-a563-e24ab992aa15)
 
 **Key Feature Findings are Below:**
-- For the 2000-2023 dataset (Dataset1):
+- For the 2000-2023 dataset (Dataset 1):
   - While focusing on track's/genre's respective popularities, key insights were found. The following analysis is from an "on average" perspective. The less acoustic, the more         popular a track/genre is. Though, acousticness's impact on popularity is not strong. Energy's popularity sweet spot, which is measured between 0-1, hovers around 0.50-0.75.        The more danceable a track/genre, the more popular... 0.55-0.75 is the sweet spot. Valence is not a strong predictor of popularity while on the other hand, speechiness is.         The less speechiness, the more popular (sweet spot is 0-0.10). Loudness also is a strong predictor of popularity as its sweet spot is -15 to -5 dBs. Lastly, instrumentalness       is like valence where it's not a strong predictor of popularity, though, an instrumentallness of 0 is most popular.
-- For the 1921-1999 dataset (Dataset2):
+- For the 1921-1999 dataset (Dataset 2):
   - While focusing on track's/genre's respective popularities, key insights were found. The following analysis is from an "on average" perspective. The less acoustic, the more         popular a track/genre is. Though, acousticness's impact on popularity is not strong. Energy's popularity sweet spot, which is measured between 0-1, hovers around 0.65-0.95         which is greater than the file_2000_2023_spotify dataframe. The more danceable a track/genre, the more popular... 0.55-0.75 is the sweet spot just like the                     
     file_2000_2023_spotify dataframe. Valence is not a strong predictor of popularity while on the other hand, speechiness is. The less speechiness, the more popular (sweet spot 
     is 0-0.05). Loudness also is a strong predictor of popularity as its sweet spot is -15 to -5 dBs. Lastly, instrumentalness is like valence where it's not a strong predictor of 
