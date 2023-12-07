@@ -86,7 +86,9 @@ I elected to work with Python's scikit-learn library, and I focused on [regressi
 Workbook [here](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/blob/master/Capstone%203%20Project/Capstone_3_Pre_processing_Work_and_Modeling_Final.ipynb)
 
 > NOTE: This is the same workbook as the modeling one above. The predictions are incorporated for each model. For more details regardiNG the XGB regression, see the modeling work towards the bottom of the workbook.
-> 
+>
+The first graph for each model shows the difference between the actual dependent feature vs the predicted dependent feature.
+
 The model tied to Dataset 1 performs well at predicting 'popularity' by using all features tied to the X variable. 
 ![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/29096af0-a214-4d44-be3f-5f4f02f7d57a)
 ![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/49308f34-8bbd-4aba-a747-7df3e7050e48)
