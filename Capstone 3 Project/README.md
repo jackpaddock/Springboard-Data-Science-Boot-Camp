@@ -18,10 +18,10 @@ Workbook [here](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Cam
 
 Both datasets are quite clean as is, so I did not need to apply drastic changes. Though, touch-up was needed to enhance the interpretability for my clients. Changes made include:
 
-- 15 values or 0.13% of the artist_name field were missing. Filled with value "other" in Dataset1
-- 1 value or 0.01% of the track_name field was missing. Filled with value "other."
-- Converted track duration from milliseconds to minutes for better interpretability.
-- Renamed fields for better interpretability.
+- 15 values or 0.13% of the artist_name field were missing. Filled with value "other" in Dataset 1.
+- 1 value or 0.01% of the track_name field was missing. Filled with value "other" in Dataset 1.
+- Converted track duration from milliseconds to minutes for better interpretability in both Datasets.
+- Renamed fields for better interpretability in both Datasets.
 - Deleted duplicate field in Dataset 2.
 - Stripped brackets and quotes in artist_name field in Dataset 2.
 
