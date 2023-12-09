@@ -16,7 +16,7 @@ Both Kaggle datasets are from Spotify's API which is ideal for data quality and 
 
 Workbook [here](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/blob/master/Capstone%203%20Project/Capstone%203%20-%20Data%20Wrangling.ipynb)
 
-Both datasets are quite clean as is, so I did not need to apply drastic changes. Though, touch-up was needed to enhance the interpretability for my clients. Changes made include:
+Both datasets are quite clean as is, so I did not need to apply drastic changes. Though, touch-up was needed to enhance the interpretability. Changes made include:
 
 - 15 values or 0.13% of the artist_name field were missing. Filled with value "other" in Dataset 1.
 - 1 value or 0.01% of the track_name field was missing. Filled with value "other" in Dataset 1.
