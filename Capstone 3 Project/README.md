@@ -55,9 +55,9 @@ Workbook [here](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Cam
 
 **Key Feature Findings are Below:**
 - For the 2000-2023 dataset (Dataset 1):
-  - While focusing on track's/genre's respective popularities, key insights were found. The following analysis is from an "on average" perspective. The less acoustic, the more         popular      a track/genre is. Though, acousticness's impact on popularity is not strong. Energy's popularity sweet spot, which is measured between 0-1, hovers around 0.50-0.75.        The more danceable a track/genre, the more popular... 0.55-0.75 is the sweet spot. Valence is not a strong predictor of popularity while on the other hand, speechiness is.         The less speechiness, the more popular (sweet spot is 0-0.10). Loudness also is a strong predictor of popularity as its sweet spot is -15 to -5 dBs. Lastly, instrumentalness       is like valence       where it's not a     strong predictor of popularity, though, an instrumentalness of 0 is most popular.
-
-![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/98ac6dd8-d139-427a-a041-f1706891a0ef)
+  - While focusing on track's/genre's respective popularities, key insights were found. The following analysis is from an "on average" perspective. The less acoustic, the more         popular      a track/genre is. Though, acousticness's impact on popularity is not strong. Energy's popularity sweet spot, which is measured between 0-1, hovers around 0.50-        0.75.        The more danceable a track/genre, the more popular... 0.55-0.75 is the sweet spot. Valence is not a strong predictor of popularity while on the other hand,            speechiness is.         The less speechiness, the more popular (sweet spot is 0-0.10). Loudness also is a strong predictor of popularity as its sweet spot is -15 to -5 dBs.        Lastly, instrumentalness       is like valence       where it's not a     strong predictor of popularity, though, an instrumentalness of 0 is most popular.
+  - <img width="197" alt="image" src="https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/0faee59b-64c0-470a-ad1e-bbcaed767219">
+  - <img width="197" alt="image" src="https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/94aa6906-47fa-4dde-8447-a99d7fc0a142">
 
 
 
