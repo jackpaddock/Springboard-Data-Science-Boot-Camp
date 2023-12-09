@@ -45,11 +45,11 @@ Workbook [here](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Cam
 - ![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/f1735020-fbda-4155-a580-abfe23808170)
 
 - ![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/3b2b3f1e-8afd-4655-8b5c-56585e2e2308)
-  > NOTE: Over 400k tracks had a popularity score between 0-10. That is astounding and reflects close to 1/3 of the data alone. Inversely, only 15k tracks scored above 60.
+  > Over 400k tracks had a popularity score between 0-10. That is astounding and reflects close to 1/3 of the data alone. Inversely, only 15k tracks score above 60.
   >
   >
 - ![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/4becea59-95e0-4cae-b625-75035e94574e)
-  > NOTE: ddfdfdf
+  > Over 40k tracks had a popularity score between 0-10. Like Dataset 1, this reflects a significant portion of the data. In this case, it reflects about 1/4 of it. Inversely,         just over 3k tracks score above 60.
   > 
 
 - ![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/ea4a444c-ff9b-45b8-bebc-737d55feddd5)
