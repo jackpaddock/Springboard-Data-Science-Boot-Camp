@@ -47,17 +47,20 @@ Workbook [here](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Cam
 - ![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/3b2b3f1e-8afd-4655-8b5c-56585e2e2308)
   > Over 400k tracks had a popularity score between 0-10. That is astounding and reflects close to 1/3 of the data alone. Inversely, only 15k tracks score above 60.
   >
-  >
 - ![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/4becea59-95e0-4cae-b625-75035e94574e)
   > Over 40k tracks had a popularity score between 0-10. Like Dataset 1, this reflects a significant portion of the data. In this case, it reflects about 1/4 of it. Inversely,         just over 3k tracks score above 60.
   > 
-
 - ![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/ea4a444c-ff9b-45b8-bebc-737d55feddd5)
 - ![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/ac3499b7-1487-416c-a563-e24ab992aa15)
 
 **Key Feature Findings are Below:**
 - For the 2000-2023 dataset (Dataset 1):
-  - While focusing on track's/genre's respective popularities, key insights were found. The following analysis is from an "on average" perspective. The less acoustic, the more         popular      a track/genre is. Though, acousticness's impact on popularity is not strong. Energy's popularity sweet spot, which is measured between 0-1, hovers around 0.50-0.75.        The more             danceable a track/genre, the more popular... 0.55-0.75 is the sweet spot. Valence is not a strong predictor of popularity while on the other hand, speechiness is.         The less              speechiness, the more popular (sweet spot is 0-0.10). Loudness also is a strong predictor of popularity as its sweet spot is -15 to -5 dBs. Lastly, instrumentalness       is like valence       where it's not a     strong predictor of popularity, though, an instrumentalness of 0 is most popular.
+  - While focusing on track's/genre's respective popularities, key insights were found. The following analysis is from an "on average" perspective. The less acoustic, the more         popular      a track/genre is. Though, acousticness's impact on popularity is not strong. Energy's popularity sweet spot, which is measured between 0-1, hovers around 0.50-0.75.        The more danceable a track/genre, the more popular... 0.55-0.75 is the sweet spot. Valence is not a strong predictor of popularity while on the other hand, speechiness is.         The less speechiness, the more popular (sweet spot is 0-0.10). Loudness also is a strong predictor of popularity as its sweet spot is -15 to -5 dBs. Lastly, instrumentalness       is like valence       where it's not a     strong predictor of popularity, though, an instrumentalness of 0 is most popular.
+
+![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/98ac6dd8-d139-427a-a041-f1706891a0ef)
+
+
+
 - For the 1921-1999 dataset (Dataset 2):
   - While focusing on track's/genre's respective popularities, key insights were found. The following analysis is from an "on average" perspective. The less acoustic, the more         popular      a track/genre is. Though, acousticness's impact on popularity is not strong. Energy's popularity sweet spot, which is measured between 0-1, hovers around 0.65-0.95         which is greater     than the file_2000_2023_spotify dataframe. The more danceable a track/genre, the more popular... 0.55-0.75 is the sweet spot just like the                     
     file_2000_2023_spotify dataframe. Valence is not a strong predictor of popularity while on the other hand, speechiness is. The less speechiness, the more popular (sweet spot 
