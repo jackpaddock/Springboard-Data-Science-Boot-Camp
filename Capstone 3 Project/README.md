@@ -56,17 +56,28 @@ Workbook [here](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Cam
 **Key Feature Findings are Below:**
 - For the 2000-2023 dataset (Dataset 1):
   - While focusing on track's/genre's respective popularities, key insights were found. The following analysis is from an "on average" perspective. The less acoustic, the more         popular      a track/genre is. Though, acousticness's impact on popularity is not strong. Energy's popularity sweet spot, which is measured between 0-1, hovers around 0.50-        0.75.        The more danceable a track/genre, the more popular... 0.55-0.75 is the sweet spot. Valence is not a strong predictor of popularity while on the other hand,            speechiness is.         The less speechiness, the more popular (sweet spot is 0-0.10). Loudness also is a strong predictor of popularity as its sweet spot is -15 to -5 dBs.        Lastly, instrumentalness       is like valence       where it's not a     strong predictor of popularity, though, an instrumentalness of 0 is most popular.
-  - <img width="197" alt="image" src="https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/0faee59b-64c0-470a-ad1e-bbcaed767219">
-  - <img width="197" alt="image" src="https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/94aa6906-47fa-4dde-8447-a99d7fc0a142">
-
+  - ![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/5673c3fe-c859-406b-b834-32fd5d843dc6)
+  - ![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/13327e5e-a50e-4535-92d3-37593ebbf0df)
+  - ![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/db917c4d-ef4e-4ec3-9e7f-4c57a28b423c)
+  - ![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/5de8b15f-7738-45ab-a842-edd14e529855)
+  - ![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/1b9b64c1-dba9-4794-b940-0ad96efae533)
+  - ![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/6c8dbb37-f0c4-41b8-8853-a4fbc7e00c2b)
+  - ![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/244a226c-d66d-4cc0-89a1-e7bef1270cab)
 
 
 - For the 1921-1999 dataset (Dataset 2):
-  - While focusing on track's/genre's respective popularities, key insights were found. The following analysis is from an "on average" perspective. The less acoustic, the more         popular      a track/genre is. Though, acousticness's impact on popularity is not strong. Energy's popularity sweet spot, which is measured between 0-1, hovers around 0.65-0.95         which is greater     than the file_2000_2023_spotify dataframe. The more danceable a track/genre, the more popular... 0.55-0.75 is the sweet spot just like the                     
+  - While focusing on track's/genre's respective popularities, key insights were found. The following analysis is from an "on average" perspective. The less acoustic, the more         popular      a track/genre is. Though, acousticness's impact on popularity is not strong. Energy's popularity sweet spot, which is measured between 0-1, hovers around 0.65-        0.95         which is greater     than the file_2000_2023_spotify dataframe. The more danceable a track/genre, the more popular... 0.55-0.75 is the sweet spot just like the                     
     file_2000_2023_spotify dataframe. Valence is not a strong predictor of popularity while on the other hand, speechiness is. The less speechiness, the more popular (sweet spot 
     is 0-0.05). Loudness also is a strong predictor of popularity as its sweet spot is -15 to -5 dBs. Lastly, instrumentalness is like valence where it's not a strong predictor of 
     popularity, though, an instrumentalness of 0 is most popular.
-
+  - ![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/cc46eadc-6fb5-4bf5-8f8d-cfe18ffba286)
+  - ![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/d8629136-8556-4f01-acef-3a8478a5634a)
+  - ![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/95976cca-b75b-4b13-8b26-c21f3647012b)
+  - ![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/ed45146e-be09-48df-9bd3-c112c24c1256)
+  - ![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/508d3dd0-fd3e-4d8a-8cc2-89a0603c0274)
+  - ![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/cb8b4348-4f88-4056-b5f0-fbbafa2ae686)
+  - ![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/ea50ba5a-c18b-419b-bd5a-85f39f003fef)
+    
 
 ## 4. Modeling via Supervised Machine Learning
 
