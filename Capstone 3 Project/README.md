@@ -29,7 +29,7 @@ Both datasets are quite clean as is, so I did not need to apply drastic changes.
 
 Workbook [here](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/blob/master/Capstone%203%20Project/Capstone%203%20-%20Exploratory%20Data%20Analysis.ipynb)
 
-**Music Features and Their Respective Definitions**
+Digging into the data, many trends and findings were uncovered. They are articulated below. First, it is vital to understand the features to then understand their respective correlations and trends amongst one another.
 ![image](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/assets/129892021/4b8ac583-b8e5-44fa-be24-e38710a87d03)
 
 
