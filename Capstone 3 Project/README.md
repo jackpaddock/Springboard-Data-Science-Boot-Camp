@@ -132,7 +132,7 @@ Given the music industry's fluctuation over time:
 
 ## 7. Future Work
 
-- Hit Spotify's API to pull more data tied to the years 1921-1999. The primary goal would be to have scale like Dataset 1 where the row count is over one million and where each      line item    is grouped by genre like Dataset 1. This thought assumes the results would be better than Dataset 2.
+- Hit Spotify's API to pull more data tied to the years 1921-1999 (Dataset 2). The primary goal would be to have scale like Dataset 1 where the row count is over one million and where each      line item    is grouped by genre like Dataset 1. This thought assumes the results would be better than Dataset 2 as is.
 - Explore impact of cultural changes over time to understand its impact on genre popularity.
 - Leverage an additional dataset to explore which regions or states in the U.S. or broader scale... which countries prefer which genres over time.
 - Leverage an additional dataset, if available, to explore social media's impact on genre or artist popularity over time.
