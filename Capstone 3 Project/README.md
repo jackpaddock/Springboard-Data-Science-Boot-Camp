@@ -107,7 +107,7 @@ I elected to work with Python's scikit-learn library, and I focused on [regressi
 
 Workbook [here](https://github.com/jackpaddock/Springboard-Data-Science-Boot-Camp/blob/master/Capstone%203%20Project/Capstone_3_Pre_processing_Work_and_Modeling_Final.ipynb)
 
-> NOTE: This is the same workbook as the modeling one above. The predictions are incorporated for each model. For more details regardiNG the XGB regression, see the modeling work towards the bottom of the workbook.
+> NOTE: This is the same workbook as the modeling one above. The predictions are incorporated for each model. For more details regarding the XGB regression, see the modeling work towards the bottom of the workbook.
 >
 The first graph for each model shows the difference between the actual dependent feature vs the predicted dependent feature.
 
